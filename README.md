@@ -5,7 +5,7 @@ expressでメモアプリを作成しながら練習
 
 https://nodejs.org/ja/ にアクセスしインストール
 
-## Expressのボイラーテンプレートを作成
+## Expressのボイラープレートを作成
 
 下記コマンドを実行し、`express-generator` をインストール
 ```
