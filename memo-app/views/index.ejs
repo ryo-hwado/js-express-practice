@@ -6,6 +6,15 @@
   </head>
   <body>
     <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <form action="/" method="POST">
+      <div>タスクの登録</div>
+      <input required type="text" name="add" placeholder="やること">
+      <input type="submit" value="追加">
+    </form>
+    <ul>
+      <% for(let todo of todos) { %>
+      <li><%= todo %></li>
+      <% } %>
+    </ul>
   </body>
 </html>
