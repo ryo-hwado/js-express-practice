@@ -1,6 +1,14 @@
 # js-express-practice
 expressでメモアプリを作成しながら練習
 
+## yarnのインストール
+以下コマンドを実行(グローバルにインストール)
+```
+npm install -g yarn
+```
+
+
+
 ##  Node.jsのインストール
 https://nodejs.org/ja/ にアクセスしインストール
 
@@ -14,3 +22,5 @@ npm install express-generator -g
 ```
 express memo-app --view=ejs
 ```
+
+# 
