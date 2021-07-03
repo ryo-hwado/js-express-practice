@@ -15,12 +15,14 @@ https://nodejs.org/ja/ にアクセスしインストール
 ## Expressのボイラープレートを作成
 下記コマンドを実行し、`express-generator` をインストール
 ```
-npm install express-generator -g
+yarn global add express-generator
 ```
 
 下記コマンドを実行し、プロジェクトテンプレートを作成 
 ```
 express memo-app --view=ejs
 ```
+## SQliteのインストール
 
-# 
+
+## アプリケーションの起動
