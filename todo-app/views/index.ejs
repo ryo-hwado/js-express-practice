@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TODOリスト</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>TODOリスト</h1>
+    <form action="/" method="POST">
+      <div>タスクの登録</div>
+      <input required type="text" name="add" placeholder="やること">
+      <input type="submit" value="追加">
+    </form>
+    <ul>
+      <% for(todo of todos) { %>
+      <li><%= todo.content %></li>
+      <% } %>
+    </ul>
+  </body>
+</html>
