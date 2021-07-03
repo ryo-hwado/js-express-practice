@@ -8,7 +8,6 @@ npm install -g yarn
 ```
 
 
-
 ##  Node.jsのインストール
 https://nodejs.org/ja/ にアクセスしインストール
 
@@ -20,7 +19,11 @@ yarn global add express-generator
 
 下記コマンドを実行し、プロジェクトテンプレートを作成 
 ```
-express memo-app --view=ejs
+express todo-app --view=ejs
+```
+todo-app
+```
+cd todo-app
 ```
 ## SQliteのインストール
 

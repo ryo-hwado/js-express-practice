@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %></title>
+    <title>TODOリスト</title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <h1><%= title %></h1>
+    <h1>TODOリスト</h1>
     <form action="/" method="POST">
       <div>タスクの登録</div>
       <input required type="text" name="add" placeholder="やること">
       <input type="submit" value="追加">
     </form>
     <ul>
-      <% for(let todo of todos) { %>
-      <li><%= todo %></li>
+      <% for(todo of todos) { %>
+      <li><%= todo.content %></li>
       <% } %>
     </ul>
   </body>
