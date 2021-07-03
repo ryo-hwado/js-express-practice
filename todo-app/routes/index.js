@@ -14,11 +14,10 @@ router.get('/', function(req, res, next) {
   db.serialize(() => {
     db.all("SELECT * FROM todos", (err, rows) => {
       if(!err) {
-        const data = {
+        res.render('index', {
           title: 'TODO メモ 一覧表示',
           todos: rows
-        }
-        res.render('index', data);
+        });
       }
     });
   });
