@@ -13,7 +13,7 @@
     </form>
     <ul>
       <% for(todo of todos) { %>
-      <li><%= todo.content %></li>
+      <li><%= todo.content %> <a href="/<%= todo.id %>">編集</a> <a href="/<%= todo.id %>/delete">削除</a></li>
       <% } %>
     </ul>
   </body>

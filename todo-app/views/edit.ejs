@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+
+<head>
+    <title>編集画面</title>
+</head>
+<body>
+    <form action="/<%= todo.id %>" method="POST">
+        <div>TODOの編集 ID: <%= todo.id %></div>
+        <input required type="text" name="modify" value="<%= todo.content %>">
+        <input type="submit" value="更新">
+    </form>
+    
+</body>
+</html>
